@@ -42,9 +42,7 @@ p {
 
 .header-one {
     width: 98%;
-    height: 50pxpx;
     background-color: var(--box-color);
-    /* border: 1px solid #adb5bd; */
     border-radius: 0.5rem;
     position: relative;
     box-shadow: var(--bs-card-box-shadow);
@@ -86,7 +84,7 @@ h2 {
     border-radius: 0.5rem;
     position: relative;
     box-shadow: var(--bs-card-box-shadow);
-    display: flex;
+
 
 }
 
@@ -98,7 +96,7 @@ h2 {
 
 @media (min-width:678px) {
     .container .box {
-        flex-basis: 40%;
+        flex-basis: 45%;
         height: 500px;
     }
 }
@@ -106,6 +104,7 @@ h2 {
 @media (min-width:1200px) {
     .container .box {
         flex-basis: 35%;
+        height: 450;
     }
 }
 
@@ -136,7 +135,6 @@ h3 {
     height: 50px;
     border-top-right-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
-    display: flex;
     justify-content: space-between;
 }
 

@@ -126,11 +126,21 @@ ul {
 
 }
 
+.pricing .plans .plan:hover {
+    background-color: #f0f4f7;
+
+}
+
+
 .pricing .plans .plan .head {
     padding: 40px 20px;
     border-top: 1px solid var(--main-color);
     border-bottom: 1px solid var(--main-color);
     text-align: center;
+}
+
+.pricing .plans .plan .head:hover {
+    border-top: 5px solid var(--main-color);
 }
 
 .pricing .plan .head h3 {

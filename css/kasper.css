@@ -128,7 +128,7 @@ ul {
 
 .pricing .plans .plan:hover {
     background-color: #f0f4f7;
-
+    border-top: 3px solid var(--main-color);
 }
 
 
@@ -139,9 +139,6 @@ ul {
     text-align: center;
 }
 
-.pricing .plans .plan .head:hover {
-    border-top: 5px solid var(--main-color);
-}
 
 .pricing .plan .head h3 {
     margin-bottom: 20px;
